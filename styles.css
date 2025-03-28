@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    /* background-color: black; */
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --header-bg-color: #1F2937;
+    --header-font: Roboto;
+    --btn-color: #3882F6;
+    font-family: Roboto;
+}
+
+.header {
+    background-color: #1f2937;
+    color: white;
+    padding: 20px 150px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px
+}
+
+.navbar p {
+    font-size: 24px;
+    font-weight: 900;
+    margin-right: auto;
+    color: #F9FaF8;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.row {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+    padding: 30px;
+    gap: 300px;
+}
+
+.info-block {
+    /* width: 480px; */
+    flex: 1;
+}
+
+
+.info-block h1 {
+    font-size: 48px;
+    color: #F9FaF8;
+    weight: 900;
+}
+
+.info-block p {
+    font-size: 18px;
+    color: #b8b9bb
+}
+
+.blue-btn {
+    background-color: #3882f6;
+    font-size: 16px;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.image-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    height: 200px;
+    background-color: grey;
+}
+
+
+.information {
+    text-align: center;
+    margin: 32px;
+}
+
+
+.cards {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    padding: 50px;
+}
+
+.card .square {
+    height: 150px;
+    border: 5px solid lightskyblue;
+    border-radius: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 150px;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 300;
+    padding: 100px 350px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 300px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 60px 50px;
+    color: white;
+}
+
+.call-text {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.signup-text {
+    font-weight: 300;
+}
+
+.signup-btn {
+    padding: 0px 30px;
+    color: white;
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: 2px solid white;
+    font-size: 16px;
+    font-weight: bold;
+    height: 30px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #1f2937;
+    padding: 50px;
+}
